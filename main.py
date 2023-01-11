@@ -3,6 +3,7 @@ from operations import *
 running = True
 
 while running:
+    clear()
     print("calculator developed by kayla welch")
     print("1; addition")
     print("2: subtraction")

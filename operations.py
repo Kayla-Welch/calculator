@@ -1,7 +1,7 @@
 def clear():
     import os
 
-    os.system("cls")
+    os.system("clear")
 
 def addition():
     try:
@@ -24,3 +24,26 @@ def subtraction():
     subtractionDifference = number1 - number2
 
     return subtractionDifference
+
+def multiplication():
+    try:
+        number1 = int(input("number 1: "))
+        number2 = int(input("number 1: "))
+    except ValueError:
+        print("input a number instead of a letter or symbol")
+
+    multiplicationProduct = number1 * number2
+
+    return multiplicationProduct
+
+def division():
+    try:
+        number1 = int(input("number 1: "))
+        number2 = int(input("number 1: "))
+    except ValueError:
+        print("input a number instead of a letter or symbol")
+
+    divisionQuotient = number1 / number2
+
+    return divisionQuotient
+
