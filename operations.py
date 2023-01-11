@@ -47,3 +47,13 @@ def division():
 
     return divisionQuotient
 
+def exponent():
+    try:
+        number1 = int(input("number 1: "))
+        number2 = int(input("number 1: "))
+    except ValueError:
+        print("input a number instead of a letter or symbol")
+
+    exponentApplication = number1^number2
+
+    return exponentApplication
