@@ -57,3 +57,14 @@ def exponent():
     exponentApplication = number1^number2
 
     return exponentApplication
+
+def squareRoot():
+    import math
+    try:
+        number1 = int(input("number 1: "))
+    except ValueError:
+        print("input a number instead of a letter or symbol")
+    
+    squareRootApplication = math.sqrt(number1)
+
+    return squareRootApplication
