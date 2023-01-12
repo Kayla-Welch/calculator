@@ -29,4 +29,6 @@ def main():
 
 # checks if main.py was the file ran
 if __name__ == "__main__":
+
+    # if main.py was ran, then start
     main()
