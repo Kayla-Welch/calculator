@@ -5,7 +5,6 @@ def clear():
 
 def numberInput():
     
-
     try:
         # allows the numbers that will be formed to be used in other functions
         global number1
