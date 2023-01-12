@@ -27,5 +27,6 @@ def main():
     else:
         running = False
 
+# checks if main.py was the file ran
 if __name__ == "__main__":
     main()
